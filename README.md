@@ -74,6 +74,10 @@ users:
     groups: sudo
     shell: /bin/bash
     lock_passwd: false
+  - name: ubuntu
+    shell: /usr/sbin/nologin
+    lock_passwd: true
+    inactive: true
 # Configuração de IP estático com netplan
 #write_files:
 #  - path: /etc/netplan/50-cloud-init.yaml
