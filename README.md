@@ -39,6 +39,7 @@ disable_root: true
  - update_hostname
  - update_etc_hosts
 ```
+> Certifique-se de deletar os modules que não necessita seguindo como exemplo o arquivo 'cloud.cfg'.
 
 > Salve o arquivo de configuração.
 
